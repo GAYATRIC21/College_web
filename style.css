@@ -126,12 +126,20 @@
    top: 0;
 }
 
+.card{
+  justify-content: space-between;
+  display: flex;
+}
+
 .course{
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  
 }
+
+
 h1{
   font-size: 30px;
   font-weight: 600;
@@ -162,6 +170,8 @@ p{
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.5s;
+  
+  justify-content: space-between;
 }
 h3{
   text-align: center;
@@ -233,14 +243,14 @@ h3{
   transition: .5s;
   
 }
-/* -----login box---*/
+/* -----login box---
 .login {
   overflow: hidden;
   background-color: cyan;
   padding: 40px 30px 30px 30px;
   border-radius: 10px;
   position: absolute;
-/*  top: 50%;*/
+/*  top: 50%;
   left: 50%;align-self: center;
   width: 400px;
   transform: translate(-50%, -50%);
@@ -258,8 +268,8 @@ h3{
   width: 100%;
   border: 0;
   padding: 10px 10px;
-  margin: 15px -10px;
-}
+  margin: 15px -10px;*/
+
 .login > button {
   font-family: "Asap", sans-serif;
   cursor: pointer;
@@ -274,7 +284,7 @@ h3{
   border-radius: 5px;
   background-color: #F03033;
   transition: background-color 300ms;
-}
+}/*
 .login > button:hover {
   background-color: #FB2326;
 }
@@ -354,4 +364,33 @@ h3{
      font-size: 16px;
      margin-top:10px;
      margin-bottom: 5px;
+}
+
+
+.location{
+  width: 80%;
+  margin: auto;
+  
+}
+
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border: 1px solid #ccc;
+  
+}
+
+.login{
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+iframe{
+  padding-top: 40px;
+}
+
+.width-60{
+  display: flex;
 }
